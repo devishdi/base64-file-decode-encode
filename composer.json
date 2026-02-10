@@ -1,0 +1,31 @@
+{
+    "name": "devishdi/base64-file-decode-encode",
+    "description": "PHP Base64 file decoder and encoder",
+    "homepage": "https://github.com/devishdi/base64-file-decode-encode",
+    "keywords": [
+        "php",
+        "base64 encoder",
+        "base64 decoder"
+    ],
+    "authors": [
+        {
+            "name": "Ishdi Dev",
+            "email": "dev@ishdi.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Muhammed Naushad",
+            "email": "m.naushad@ishdi.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevIshdi\\Base64FileDecodeEncode\\": "src"
+        }
+    }
+}
